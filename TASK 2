@@ -1,0 +1,17 @@
+class Student:
+    def __init__(my, name, age, course):
+        my.name = name
+        my.age = age
+        my.course = course
+    
+    def introduce(my):
+        print(f"Hello, I am {my.name}, {my.age} years old, and I am studying {my.course}.")
+        
+
+student1 = Student("Lenard", 22, "DIP-IT")
+student2 = Student("Josh", 20, "DIP-IT")
+student3 = Student("Marky Tahimik lang", 21, "DIP-IT")
+
+student1.introduce()
+student2.introduce()
+student3.introduce()

@@ -1,0 +1,15 @@
+class Car:
+    def __init__(my, brand, model, year):
+        my.brand = brand
+        my.model = model
+        my.year = year
+    
+    def display_info(my):
+        print(f"Car Details: Brand: {my.brand}, Model: {my.model}, Year: {my.year}")
+        
+
+car1 = Car("Tesla", "S", 2024)
+car2 = Car("Honda", "Civic", 2023)
+
+car1.display_info()
+car2.display_info()

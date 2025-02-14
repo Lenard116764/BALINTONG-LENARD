@@ -1,0 +1,16 @@
+class Book:
+    def __init__(my, title, author, year_published):
+        my.title = title
+        my.author = author
+        my.year_published = year_published
+    
+    def describe(my):
+        print(f"Book Details: Title: {my.title}, Author: {my.author}, Year Published: {my.year_published}")
+
+book1 = Book("Naruto", "Masashi Kishimoto", 1999)
+book2 = Book("Naruto shippuden", "Masashi Kishimoto", 2007)
+book3 = Book("Boruto", "Ukyō Kodach", 2016)
+
+book1.describe()
+book2.describe()
+book3.describe()
